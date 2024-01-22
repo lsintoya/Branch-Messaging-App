@@ -7,13 +7,16 @@ Create and activate a virtual environment to isolate your project dependencies
    .\venv\Scripts\activate   # On Windows
 ```
 Install Flask within your virtual environment
-```pip install flask```
+```pip install flask
+   pip install flask_WTF
+   pip install wtforms
+```
 
 Install SQLAlchemy and Flask
-pip install Flask Flask-SQLAlchemy
+```pip install Flask Flask-SQLAlchemy```
 
 Install Flask-RESTful
-pip install Flask-RESTful
+```pip install Flask-RESTful```
 
 
 Files
@@ -23,7 +26,7 @@ app/models.py - defines the app's data and database
 run.py - execution file
 
 To run the app:
-python run.py
+```python run.py```
 
 Visit http://127.0.0.1:5000/ in your web browser to see your Flask app.
 

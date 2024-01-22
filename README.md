@@ -6,7 +6,7 @@ python -m venv venv
 source venv/bin/activate  # On macOS/Linux
 .\venv\Scripts\activate   # On Windows
 
-Install Flask within your virtual environment.
+Install Flask within your virtual environment
 pip install flask
 
 Install SQLAlchemy and Flask
@@ -27,5 +27,5 @@ python run.py
 
 Visit http://127.0.0.1:5000/ in your web browser to see your Flask app.
 
-#Authors#
+Authors
 [Emmaculate Sintoya](https://github.com/lsintoya)

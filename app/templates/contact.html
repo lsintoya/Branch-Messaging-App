@@ -1,0 +1,23 @@
+<!-- app/templates/contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <form method="post" action="{{ url_for('contact') }}">
+        {{ form.hidden_tag() }}
+        <label for="name">Name:</label>
+        {{ form.name() }}
+        <label for="email">Email:</label>
+        {{ form.email() }}
+        <label for="message">Message:</label>
+        {{ form.message() }}
+        {{ form.submit() }}
+    </form>
+</body>
+</html>

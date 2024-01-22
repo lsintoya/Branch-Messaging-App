@@ -1,6 +1,6 @@
-#Branch Messaging APP#
+##Branch Messaging APP##
 
-##Dependencies##
+##Dependencies## \n
 Create and activate a virtual environment to isolate your project dependencies
 python -m venv venv
 source venv/bin/activate  # On macOS/Linux
@@ -27,5 +27,5 @@ python run.py
 
 Visit http://127.0.0.1:5000/ in your web browser to see your Flask app.
 
-#Authors#
+##Authors##
 [Emmaculate Sintoya](https://github.com/lsintoya)

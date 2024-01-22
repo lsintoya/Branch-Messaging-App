@@ -1,6 +1,6 @@
 ##Branch Messaging APP##
 
-##Dependencies##
+##Dependencies## \n
 Create and activate a virtual environment to isolate your project dependencies
 python -m venv venv
 source venv/bin/activate  # On macOS/Linux
